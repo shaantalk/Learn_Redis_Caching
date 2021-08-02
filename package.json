@@ -1,0 +1,26 @@
+{
+  "name": "Learn_Redis_Caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaantalk/Learn_Redis_Caching.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaantalk/Learn_Redis_Caching/issues"
+  },
+  "homepage": "https://github.com/shaantalk/Learn_Redis_Caching#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}

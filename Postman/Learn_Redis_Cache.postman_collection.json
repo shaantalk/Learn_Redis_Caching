@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "b4545f81-e447-47ad-bb08-14ac5e6a4702",
+		"name": "Learn_Redis_Cache",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Slow API Call",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cache_n_call?endpoint=https://reqres.in/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cache_n_call"
+					],
+					"query": [
+						{
+							"key": "endpoint",
+							"value": "https://reqres.in/api/users/"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
